@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            max-width: 1024px;
+            width: 100%;
+            margin: 0 auto;
+            font-family: sans-serif;
+        }       
+        .row {
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: flex-start;
+        }
+        .column {
+            flex-basis: 20%;
+            box-sizing: border-box;
+            padding: 8px;
+        }
+        .box {
+            height: 180px;
+            background-color:#2273b6;
+            background-image: url(placeholder-image.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;  
+        }
+        .box1 {
+            background-color: silver;
+            padding: 15px 0 15px;
+            margin: 0;
+            text-align: center; 
+        }
+@media screen and (max-width: 1024px) {
+.column {
+flex-basis: 33.33%;
+}
+}
+@media screen and (max-width: 414px) {
+.column {
+flex-basis: 100%;
+}
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Gallery heading</h1>
+        <div class="row">
+        <div class="column">
+        <div class="box"></div>
+        <p class="box1">Image Title</p>
+        </div>
+        <div class="column">
+        <div class="box"></div>
+        <p class="box1">Image Title</p>
+        </div>
+        <div class="column">
+        <div class="box"></div>
+        <p class="box1">Image Title</p>
+        </div>
+        <div class="column">
+        <div class="box"></div>
+        <p class="box1">Image Title</p>
+        </div>
+        <div class="column">
+        <div class="box"></div>
+        <p class="box1">Image Title</p>
+        </div>
+        <div class="column">
+        <div class="box"></div>
+        <p class="box1">Image Title</p>
+        </div>
+        <div class="column">
+        <div class="box"></div>
+        <p class="box1">Image Title</p>
+        </div>
+        <div class="column">
+        <div class="box"></div>
+        <p class="box1">Image Title</p>
+        </div>
+        <div class="column">
+        <div class="box"></div>
+        <p class="box1">Image Title</p>
+        </div>
+        <div class="column">
+        <div class="box"></div>
+        <p class="box1">Image Title</p>
+        </div>
+        </div>
+        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+        </div>
+    
+</body>
+</html>
